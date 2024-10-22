@@ -1,0 +1,111 @@
+/* General Cart Page Layout */
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title for the Cart Page */
+.cart-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Styling for individual cart items */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.cart-item-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.cart-item-price {
+    font-size: 1rem;
+    color: #888;
+}
+
+.cart-item-quantity input {
+    width: 50px;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Total price of each item */
+.cart-item-total-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+/* Cart total and checkout section */
+.cart-total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cart-total h2 {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: #333;
+}
+
+/* Checkout button */
+#checkout-btn {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#checkout-btn:hover {
+    background-color: #d81b60;
+}
+
+/* Empty cart message */
+.cart-empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
