@@ -172,10 +172,13 @@ main {
     margin: 20px 0;
 }
 
+<<<<<<< HEAD
 .bouquet-div {
     padding-left: 250px;
 }
 
+=======
+>>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
 .bouquet-card {
     background-color: white;
     border-radius: 10px;
@@ -287,6 +290,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+<<<<<<< HEAD
     width: 97.9%;
 }
 
@@ -368,11 +372,22 @@ footer {
 /* Optional: Additional footer styles or media queries */
 
 
+=======
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+>>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
 /* Slider container */
 .slider {
     position: relative;
     max-width: 100%;
+<<<<<<< HEAD
     max-height: 300px;
+=======
+    max-height: 200px;
+>>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
     margin: auto;
     overflow: hidden;
 }
@@ -468,6 +483,7 @@ footer {
     }
 }
 
+<<<<<<< HEAD
 
 /* Login Styling */
 .login-register-container {
@@ -564,6 +580,8 @@ footer {
 }
 
 
+=======
+>>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
 /* Product page */
 .product-page-display img {
     width: 330px;
@@ -673,6 +691,7 @@ footer p {
     margin: 0;
     font-size: 1rem;
 }
+<<<<<<< HEAD
 
 /* Contact Us page styles */
 .contact-section {
@@ -935,3 +954,5 @@ footer {
 .coming-soon-section .back-home:hover {
     background-color: #d81b60;
 }
+=======
+>>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
