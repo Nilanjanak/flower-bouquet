@@ -5,6 +5,12 @@ body {
     padding: 0;
 }
 
+.logo img {
+    width: 120px;
+    height: auto;
+    padding-left: 70px;
+}
+
 .sidebar {
     width: 250px;
     position: fixed;

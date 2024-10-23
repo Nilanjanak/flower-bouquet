@@ -22,7 +22,6 @@ function moveSlide(step) {
 
 // Auto-slide feature (optional)
 // Uncomment the below lines to enable auto-sliding every 5 seconds
-<<<<<<< HEAD
 
 setInterval(() => {
     moveSlide(1); // Move to the next slide automatically
@@ -30,13 +29,6 @@ setInterval(() => {
 
 
 
-=======
-/*
-setInterval(() => {
-    moveSlide(1); // Move to the next slide automatically
-}, 5000);
-*/
->>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
 
 
 // Switch between Login and Register
@@ -116,7 +108,6 @@ function scrollFunction() {
 document.getElementById("scrollTopBtn").addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-<<<<<<< HEAD
 
 // Contact form submission handler
 document.getElementById("contact-form").addEventListener("submit", function(event) {
@@ -155,5 +146,3 @@ addToCartButtons.forEach(button => {
         alert(`${comboName} has been added to your cart!`);
     });
 });
-=======
->>>>>>> e9cd8da258d7fdd7cf33f1c301afd2f19c0b6056
