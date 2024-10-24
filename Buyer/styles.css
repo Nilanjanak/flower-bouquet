@@ -494,7 +494,6 @@ h1 {
 
 h2 {
     margin-bottom: 20px;
-    text-align: center;
     color: #333;
 }
 
@@ -530,9 +529,9 @@ button:hover {
     background-color: #d81b60;
 }
 
-p {
+/* p {
     text-align: center;
-}
+} */
 
 p a {
     color: #e91e63;
