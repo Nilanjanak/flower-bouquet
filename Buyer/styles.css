@@ -1037,3 +1037,36 @@ footer {
 .get_in_touch {
     text-align: center;
 }
+
+.body-forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Container */
+.container-forgot-password {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Title */
+.title-forgot-password {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Instructions */
+.instructions-forgot-password {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
